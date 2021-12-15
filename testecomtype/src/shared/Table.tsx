@@ -108,8 +108,8 @@ export default function CustomPaginationActionsTable(data:any) {
         const response = await api.get("/api/produtos")
         setRows(response?.data?.value)
       }catch(erros){
-        setRows([])
-        alert(erros)}
+        
+        }
       
     }
     ListData()

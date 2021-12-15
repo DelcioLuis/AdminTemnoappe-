@@ -15,9 +15,11 @@ import Title from './Title';
 import api from '../services/api';
 
 
-const ID = localStorage.getItem("ID");
+
 
 export default function ValidationTextFields() {
+
+  const ID = localStorage.getItem("ID");
 
   const navigate = useNavigate();
 
